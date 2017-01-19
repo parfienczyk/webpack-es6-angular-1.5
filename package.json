@@ -1,6 +1,6 @@
 {
-  "name": "contacts",
-  "version": "1.0.0",
+  "name": "webpack",
+  "version": "1.0.1",
   "author": "@parfienczyk",
   "description": "Webpack 1.x with AngularJS 1.5.X",
   "scripts": {
