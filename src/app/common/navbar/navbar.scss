@@ -1,0 +1,33 @@
+@import '../common';
+
+.navbar {
+    background-color: #efefef;
+    padding: 0.5rem;
+
+    .nav-links,
+    .logo {
+        display: inline-block;
+    }
+
+    .logo {
+        color: $lightTextColor;
+        margin-right: 50%;
+    }
+
+    .nav-links {
+
+        float: right;
+
+        span {
+            color: $lightTextColor;
+            font-size: 1.4rem;
+            padding: 0 1rem;
+
+            a {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
